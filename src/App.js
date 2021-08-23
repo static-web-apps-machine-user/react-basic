@@ -1,8 +1,8 @@
 import React from 'react';
 
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
+  const value = 'World! Today's date is: ';
+  return <div>Hello {value} {(new Date()).toString()}</div>;
 }
 
 export default App;
